@@ -1,6 +1,30 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+body{
+	margin: 0px;
+}
+
+header {
+	display: flex;
 	text-align: center;
+	background: #44c44a;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+header h1{
+	color: white;
+}
+
+nav button{
+	border: none;
+	background: white;
+}
+
+nav button:hover{
+	cursor: pointer;
+	background: black;
+	color: #44c44a;
 }
