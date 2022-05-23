@@ -20,11 +20,11 @@ header h1{
 
 nav button{
 	border: none;
-	background: white;
+	background: none;
+	color: white;
+	font-size: 20px;
 }
 
 nav button:hover{
 	cursor: pointer;
-	background: black;
-	color: #44c44a;
 }
