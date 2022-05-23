@@ -22,11 +22,18 @@ nav button{
 	background: #44c44a;
 	color: white;
 	font-size: 20px;
-	border:none;
+	border: solid 3px #44c44a;
+	border-radius: 7px;
 }
 
 nav button:hover{
 	cursor: pointer;
 	border: solid 3px white;
-	border-radius: 7px;
+	
+}
+
+#forsideB{
+	background: white;
+	color: #44c44a;
+	border: solid 3px white;
 }
