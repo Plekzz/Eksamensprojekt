@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
 body{
+	font-family:"Open Sans";
 	margin: 0px;
 }
 
@@ -16,6 +18,8 @@ header {
 
 header h1{
 	color: white;
+	font-weight: 600;
+	font-size:20px;
 }
 
 nav button{
@@ -24,6 +28,8 @@ nav button{
 	font-size: 20px;
 	border: solid 3px #44c44a;
 	border-radius: 7px;
+	font-family: "Open Sans";
+	font-weight: 600;
 }
 
 nav button:hover{
