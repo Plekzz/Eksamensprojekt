@@ -22,7 +22,12 @@ header {
 header h1{
 	color: white;
 	font-weight: 600;
-	font-size:20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+header a{
+	text-decoration: none;
 }
 
 nav button{
