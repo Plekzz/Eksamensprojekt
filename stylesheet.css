@@ -78,3 +78,13 @@ nav button:hover{
  	padding: 20px;
 	width: 150px;
 }
+
+.lilleInfo button{
+	margin-top: 25px;
+	padding: 5px;
+	border: none;
+	background-color: #44c44a;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
