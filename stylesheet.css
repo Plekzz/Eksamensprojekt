@@ -46,3 +46,30 @@ nav button:hover{
 	color: #44c44a;
 	border: solid 3px white;
 }
+
+.forside{
+	text-align: center;
+}
+
+.forside img{
+	background-color: #44c44a;
+	padding: 15px 50px;
+}
+
+.forside p{
+	background-color: white;
+	padding: 25px;
+	margin: 0px;
+}
+
+.lilleInfo{
+	margin-top: 100px;
+	list-style-type: none;
+}
+
+.lilleInfo li {
+  	display: inline-block;
+  	font-size: 15px;
+ 	padding: 20px;
+	width: 150px;
+}
