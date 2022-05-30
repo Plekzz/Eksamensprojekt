@@ -88,3 +88,36 @@ nav button:hover{
 	font-size: 15px;
 	cursor: pointer;
 }
+
+.process {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.process h2{
+	background: #44c44a;
+	text-align: left;
+	padding: 5px 15px;
+	margin: 0px;
+	color: white;
+}
+
+.processInfo {
+	list-style-type: none;
+	display: inline-block;
+	background: white;
+	padding: 0px;
+	width: 75%;
+}
+
+.processInfo li{
+	display: inline-block;
+	float: left;
+  	font-size: 20px;
+ 	padding: 20px;
+}
+
+.processInfo img{
+	width: 250px;
+	margin: 25px;
+}
