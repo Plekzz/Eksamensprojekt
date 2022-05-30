@@ -58,7 +58,8 @@ nav button:hover{
 
 .forside img{
 	background-color: #44c44a;
-	padding: 15px 90px;
+	padding: 10px 90px;
+	margin: 0px;
 }
 
 .forside p{
@@ -117,6 +118,7 @@ nav button:hover{
 
 .processInfoBox1 {
 	display: grid;
+	justify-content: space-between;
 	grid-template-columns: auto auto;
 	gap: 10px;
 }
@@ -127,6 +129,7 @@ nav button:hover{
 
 .processInfoBox2 {
 	display: grid;
+	justify-content: space-between;
 	grid-template-columns: auto auto;
 	gap: 10px;
 }
