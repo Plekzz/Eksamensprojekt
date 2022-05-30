@@ -98,27 +98,22 @@ nav button:hover{
 	background: #44c44a;
 	text-align: left;
 	padding: 5px 15px;
-	margin: 0px;
+	margin: 0px 75px;
 	color: white;
 }
 
 .processInfo {
-	list-style-type: none;
-	display: inline-block;
+	margin: 0px 75px;
 	background: white;
-	padding: 0px;
-	width: 75%;
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
 }
 
-.processInfo li{
-	display: inline-block;
-	float: left;
-  	font-size: 20px;
- 	padding: 20px;
-	width: 500px;
+.processInfo div{
+	padding: 25px;
 }
 
-.processInfo img{
+.processInfo img {
 	width: 250px;
-	margin: 25px;
 }
