@@ -99,12 +99,12 @@ nav button:hover{
 	background: #44c44a;
 	text-align: left;
 	padding: 5px 15px;
-	margin: 0px 75px;
+	margin: 0px 150px;
 	color: white;
 }
 
 .processInfo {
-	margin: 0px 75px;
+	margin: 0px 150px 50px;
 	background: white;
 }
 
@@ -124,7 +124,12 @@ nav button:hover{
 }
 
 .processInfoBox1 div{
-	padding: 25px;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.processInfoBox1 img{
+	padding-left: 50px;
 }
 
 .processInfoBox2 {
@@ -135,5 +140,27 @@ nav button:hover{
 }
 
 .processInfoBox2 div{
-	padding: 25px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.processInfoBox2 img{
+	padding-right: 50px;
+}
+
+.processInfoBox3 {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+.processInfoBox3 div{
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.processInfoBox3 img{
+	padding-left: 50px;
 }
