@@ -105,15 +105,32 @@ nav button:hover{
 .processInfo {
 	margin: 0px 75px;
 	background: white;
+}
+
+.processInfo img {
+	width: 250px;
+}
+
+.processInfo p{
+	text-align: left;
+}
+
+.processInfoBox1 {
 	display: grid;
 	grid-template-columns: auto auto;
 	gap: 10px;
 }
 
-.processInfo div{
+.processInfoBox1 div{
 	padding: 25px;
 }
 
-.processInfo img {
-	width: 250px;
+.processInfoBox2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+.processInfoBox2 div{
+	padding: 25px;
 }
