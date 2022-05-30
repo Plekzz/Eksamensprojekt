@@ -88,3 +88,49 @@ nav button:hover{
 	font-size: 15px;
 	cursor: pointer;
 }
+
+.process {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.process h2{
+	background: #44c44a;
+	text-align: left;
+	padding: 5px 15px;
+	margin: 0px 75px;
+	color: white;
+}
+
+.processInfo {
+	margin: 0px 75px;
+	background: white;
+}
+
+.processInfo img {
+	width: 250px;
+}
+
+.processInfo p{
+	text-align: left;
+}
+
+.processInfoBox1 {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+.processInfoBox1 div{
+	padding: 25px;
+}
+
+.processInfoBox2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+.processInfoBox2 div{
+	padding: 25px;
+}
