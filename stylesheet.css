@@ -115,6 +115,7 @@ nav button:hover{
 	float: left;
   	font-size: 20px;
  	padding: 20px;
+	width: 500px;
 }
 
 .processInfo img{
