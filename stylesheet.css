@@ -58,14 +58,14 @@ nav button:hover{
 
 .forside img{
 	background-color: #44c44a;
-	padding: 10px 90px;
+	padding: 5px 87.5px;
 	margin: 0px;
 }
 
 .forside p{
 	background-color: white;
 	padding: 25px;
-	margin: 0px;
+	margin: -6px 0px;
 }
 
 .lilleInfo{
