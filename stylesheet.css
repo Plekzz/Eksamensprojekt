@@ -164,3 +164,38 @@ nav button:hover{
 .processInfoBox3 img{
 	padding-left: 50px;
 }
+
+.omOs {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.omOs h2{
+	background: #44c44a;
+	text-align: left;
+	padding: 5px 15px;
+	margin: 0px 150px;
+	color: white;
+}
+
+.omOsInfo {
+	margin: 0px 150px 50px;
+	padding-bottom: 400px;
+	background: white;
+}
+
+.omOsInfo p{
+	text-align: left;
+	padding: 12.5px 25px;
+}
+
+.omOsInfoBox1 {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+.omOsInfoBox1 div{
+	padding: 50px;
+}
