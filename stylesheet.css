@@ -4,7 +4,6 @@
 
 body{
 	font-family: "Trebuchet MS", Verdana, "sans-serif";
-	font-weight: 100;
 	margin: 0px;
 	background-image: url("Skrald.jpeg");
 	background-size: cover;
@@ -164,6 +163,41 @@ nav button:hover{
 
 .processInfoBox3 img{
 	padding-left: 50px;
+}
+
+.affaldsfraktioner {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.affaldsfraktioner h2{
+	background: #44c44a;
+	text-align: left;
+	padding: 5px 15px;
+	margin: 0px;
+	color: white;
+}
+
+.affrakInfo {
+	margin: 0px 150px 50px;
+	background: white;
+}
+
+.affrakInfo img {
+	width: 75px;
+	padding: 12.5px 0px 12.5px 25px;
+}
+
+.affrakInfo p{
+	text-align: left;
+	padding: 12.5px 25px 12.5px 5px;
+}
+
+.affrakInfoBox {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
 }
 
 .omOs {
