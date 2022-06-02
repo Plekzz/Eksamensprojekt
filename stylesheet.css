@@ -19,11 +19,17 @@ header {
 	padding: 0px 10px;
 }
 
+header img{
+	float: left;
+}
+
 header h1{
 	color: white;
 	font-weight: 600;
 	font-size: 20px;
 	cursor: pointer;
+	width: 300px;
+	padding: 15px 0px;
 }
 
 header a{
@@ -67,7 +73,7 @@ nav button:hover{
 
 .forside img{
 	background-color: #44c44a;
-	padding: 5px 87.5px;
+	padding: 0px 87.5px;
 	margin: 0px;
 }
 
@@ -75,6 +81,7 @@ nav button:hover{
 	background-color: white;
 	padding: 25px;
 	margin: -6px 0px;
+	max-height: 300px;
 }
 
 .lilleInfo{
@@ -84,7 +91,7 @@ nav button:hover{
 
 .lilleInfo li {
   	display: inline-block;
-  	font-size: 20px;
+  	font-size: 18px;
  	padding: 20px;
 	width: 250px;
 }
@@ -107,18 +114,18 @@ nav button:hover{
 .process h2{
 	background: #44c44a;
 	text-align: left;
-	padding: 5px 15px;
-	margin: 0px 150px;
+	padding: 15px 15px;
+	margin: 0px 200px;
 	color: white;
 }
 
 .processInfo {
-	margin: 0px 150px 50px;
+	margin: 0px 200px 50px;
 	background: white;
 }
 
 .processInfo img {
-	width: 250px;
+	width: 200px;
 }
 
 .processInfo p{
@@ -182,13 +189,13 @@ nav button:hover{
 .affaldsfraktioner h2{
 	background: #44c44a;
 	text-align: left;
-	padding: 5px 15px;
+	padding: 15px 15px;
 	margin: 0px;
 	color: white;
 }
 
 .affrakInfo {
-	margin: 0px 150px 50px;
+	margin: 0px 200px 50px;
 	background: white;
 }
 
@@ -217,13 +224,13 @@ nav button:hover{
 .omOs h2{
 	background: #44c44a;
 	text-align: left;
-	padding: 5px 15px;
-	margin: 0px 150px;
+	padding: 15px 15px;
+	margin: 0px 200px;
 	color: white;
 }
 
 .omOsInfo {
-	margin: 0px 150px 50px;
+	margin: 0px 200px 50px;
 	padding-bottom: 25px;
 	background: white;
 }
