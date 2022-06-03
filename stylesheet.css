@@ -257,7 +257,7 @@ nav button:hover{
 	right: 32px;
 	bottom: 16px;
 	pointer-events: none;
-	opacity: 0;
+	visibility: hidden;
 	transition: all .4s;
 }
 
@@ -268,8 +268,8 @@ nav button:hover{
 	font-size: 15px;
 }
 
-.top.active{
+.active{
 	bottom: 32px;
   	pointer-events: auto;
- 	opacity: 1;
+ 	visibility: visible;
 }
