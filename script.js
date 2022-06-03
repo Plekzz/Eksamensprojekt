@@ -1,11 +1,12 @@
 // JavaScript Document
+/*eslint-env es6*/
 
-const toTop = document.querySelector(".top");
+const tilTop = document.querySelector(".top");
 
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 20) {
-    toTop.classList.add("active");
+  if (window.pageYOffset > 1) {
+    tilTop.classList.add("active");
   } else {
-    toTop.classList.remove("active");
+    tilTop.classList.remove("active");
   }
 })
