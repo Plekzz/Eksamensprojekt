@@ -250,26 +250,3 @@ nav button:hover{
 .omOsInfoBox1 div{
 	padding: 50px;
 }
-
-.top{
-	display: flex;
-	position: fixed;
-	right: 32px;
-	bottom: 16px;
-	pointer-events: none;
-	visibility: hidden;
-	transition: all .4s;
-}
-
-.top button{
-	border: none;
-	background: #44c44a;
-	color: white;
-	font-size: 15px;
-}
-
-.active{
-	bottom: 32px;
-  	pointer-events: auto;
- 	visibility: visible;
-}
