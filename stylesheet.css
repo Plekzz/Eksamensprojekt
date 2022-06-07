@@ -58,6 +58,10 @@ nav button:hover{
 	border: solid 3px white;
 }
 
+footer p{
+	color: white;
+}
+
 .forside{
 	text-align: center;
 }
