@@ -11,8 +11,8 @@ var change ="";
 
 if (hour >= 9 && hour < 16) {
     change = "Åben";
-    document.getElementById("tid").style.color="green";
+    document.getElementById("tid").style.color = "#44c44a";
 } else {
     change = "Lukket";
-    document.getElementById("tid").style.color="red";
+    document.getElementById("tid").style.color = "#f20b07";
 }
