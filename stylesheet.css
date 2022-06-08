@@ -64,11 +64,6 @@ footer{
 	height: 105px;
 }
 
-footer p{
-	color: black;
-}
-
-
 footer div{
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -78,6 +73,10 @@ footer div{
 
 footer img{
 	padding-left: 150px;
+}
+
+#telf{
+	text-align: center;
 }
 
 .forside{
