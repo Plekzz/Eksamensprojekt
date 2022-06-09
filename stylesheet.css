@@ -116,6 +116,14 @@ footer img{
   	font-size: 18px;
  	padding: 20px;
 	width: 250px;
+	
+}
+
+.lilleInfo li p{
+	border-radius: 0px 0px 10px 10px;
+}
+.lilleInfo li img{
+	border-radius:10px 10px 0px 0px;
 }
 
 .lilleInfo button{
@@ -126,6 +134,7 @@ footer img{
 	color: white;
 	font-size: 15px;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .process {
