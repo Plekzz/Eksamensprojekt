@@ -116,7 +116,6 @@ footer img{
   	font-size: 18px;
  	padding: 20px;
 	width: 250px;
-	
 }
 
 .lilleInfo li p{
@@ -286,6 +285,41 @@ footer img{
 }
 
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
+	header {
+		display: inline-block;
+		justify-content: none;
+	}
 	
+	header img{
+		float: none;
+	}
+
+	header h1{
+		display: none;
+	}
+	
+	nav button{
+		background: #44c44a;
+		color: white;
+		font-size: 16.27px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+	
+	footer{
+		height: 90px;
+	}
+	
+	footer p{
+		font-size: 12.5px;
+	}
+	
+	footer img{
+		display: none;
+	}
+	
+	footer div{
+		grid-template-columns: auto auto;
+	}
 }
