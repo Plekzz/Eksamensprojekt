@@ -142,6 +142,10 @@ footer img{
 	margin-bottom: 200px;
 }
 
+#mobil{
+	display: none;
+}
+
 .process h2{
 	background: #44c44a;
 	text-align: left;
@@ -304,7 +308,7 @@ footer img{
 		color: white;
 		font-size: 16.27px;
 		font-weight: 600;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 	
 	footer{
@@ -321,5 +325,143 @@ footer img{
 	
 	footer div{
 		grid-template-columns: auto auto;
+	}
+	
+	.process {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	
+	#mobil{
+		display: initial;
+	}
+	
+	#pc{
+		display: none;
+	}
+
+	.process h2{
+		font-size: 20px;
+		margin: 0px 25px;
+	}
+
+	.processInfo {
+		margin: 0px 25px 50px;
+		padding-bottom: 25px;
+	}
+
+	.processInfo img {
+		width: 200px;
+	}
+
+	.processInfo p{
+		text-align: left;
+		padding: 0px 25px
+	}
+
+	.processInfoBox1 {
+		grid-template-columns: auto;
+		gap: 0px;
+	}
+
+	.processInfoBox1 div{
+		padding-top: 25px;
+		padding-right: 0px;
+	}
+
+	.processInfoBox1 img{
+		padding-left: 0px;
+	}
+
+	.processInfoBox2 {
+		grid-template-columns: auto;
+		gap: 0px;
+	}
+
+	.processInfoBox2 div{
+		padding-top: 20px;
+		padding-left: 0px;
+	}
+
+	.processInfoBox2 img{
+		padding-right: 0px;
+	}
+
+	.processInfoBox3 {
+		grid-template-columns: auto;
+		gap: 0px;
+	}
+
+	.processInfoBox3 div{
+		padding-top: 20px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+	}
+
+	.processInfoBox3 img{
+		padding-left: 0px;
+	}
+	
+	.affaldsfraktioner {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.affaldsfraktioner h2{
+		background: #44c44a;
+		text-align: left;
+		padding: 15px 15px;
+		margin: 0px;
+		color: white;
+	}
+
+	.affrakInfo {
+		margin: 0px 25px 50px;
+	}
+
+
+	.affrakInfo p{
+		text-align: left;
+		padding: 12.5px 25px 12.5px 5px;
+	}
+
+	.affrakInfoBox {
+		grid-template-columns: auto auto;
+	}
+	
+	.omOs {
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.omOs h2{
+		background: #44c44a;
+		text-align: left;
+		padding: 15px 15px;
+		margin: 0px 25px;
+		color: white;
+	}
+
+	.omOsInfo {
+		margin: 0px 25px 50px;
+		padding-bottom: 25px;
+		background: white;
+	}
+
+	.omOsInfo p{
+		text-align: left;
+		padding: 12.5px 25px;
+	}
+
+	.omOsInfoBox1 {
+		display: grid;
+		justify-content: space-between;
+		grid-template-columns: auto;
+		gap: 10px;
+	}
+
+	.omOsInfoBox1 div{
+		padding: 50px;
 	}
 }
