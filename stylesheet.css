@@ -255,7 +255,13 @@ footer img{
 	grid-template-columns: auto auto auto auto;
 	gap: 10px;
 }
-
+iframe {
+	padding: 20px 0px 100px;
+	width: 850px;
+}
+.affrakInfo h3{
+	font-size: 25px;
+}
 .omOs {
 	text-align: center;
 	margin-top: 200px;
@@ -430,6 +436,10 @@ footer img{
 
 	.affrakInfoBox {
 		grid-template-columns: auto auto;
+	}
+	
+	iframe {
+		width:300px;
 	}
 	
 	.omOs {
