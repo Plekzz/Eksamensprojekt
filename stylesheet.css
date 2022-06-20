@@ -121,6 +121,7 @@ footer img{
 .lilleInfo li p{
 	border-radius: 0px 0px 10px 10px;
 }
+
 .lilleInfo li img{
 	border-radius:10px 10px 0px 0px;
 }
@@ -255,13 +256,16 @@ footer img{
 	grid-template-columns: auto auto auto auto;
 	gap: 10px;
 }
+
+.affrakInfo h3{
+	font-size: 25px;
+}
+
 iframe {
 	padding: 20px 0px 100px;
 	width: 850px;
 }
-.affrakInfo h3{
-	font-size: 25px;
-}
+
 .omOs {
 	text-align: center;
 	margin-top: 200px;
@@ -442,7 +446,7 @@ iframe {
 	}
 	
 	iframe {
-		width:300px;
+		width: 300px;
 	}
 	
 	.omOs {
