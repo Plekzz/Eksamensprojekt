@@ -286,7 +286,7 @@ iframe {
 
 .omOsInfo p{
 	text-align: left;
-	padding: 12.5px 25px;
+	padding: 0px 25px;
 }
 
 .omOsInfoBox1 {
@@ -297,9 +297,12 @@ iframe {
 }
 
 .omOsInfoBox1 div{
-	padding: 50px;
+	padding: 25px;
 }
 
+.omOsInfoBox1 img:hover{
+	cursor: pointer;
+}
 
 @media screen and (max-width: 420px) {
 	header {
